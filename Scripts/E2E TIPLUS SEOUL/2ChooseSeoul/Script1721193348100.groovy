@@ -24,7 +24,7 @@ TestObject myElement = findTestObject('Object Repository/verificationElemen/appl
 try {
 	// Verifikasi bahwa elemen terlihat
 	WebUI.verifyElementVisible(myElement)
-	println "Elemen terlihat."
+	println "Elemen start terlihat."
 } catch (StepFailedException e) {
 	println "Elemen tidak terlihat: " + e.getMessage()
 }
