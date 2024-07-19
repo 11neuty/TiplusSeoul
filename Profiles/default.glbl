@@ -6,97 +6,72 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://cms.demo.katalon.com/my-account'</initValue>
-      <name>urlLogin</name>
+      <initValue>'https://gpcappuat:6102/tiplus2-global/login'</initValue>
+      <name>baseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'customer'</initValue>
+      <initValue>'SUPERVISOR'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'crz7mrb.KNG3yxv1fbn'</initValue>
+      <initValue>'Supervisor1'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>5</initValue>
-      <name>waitPresentTimeout</name>
+      <initValue>'IMPX/1375/23S'</initValue>
+      <name>ref</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://cms.demo.katalon.com'</initValue>
-      <name>urlShop</name>
+      <initValue>'12/12/23'</initValue>
+      <name>expDate</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'KMS'</initValue>
-      <name>companyName</name>
+      <initValue>'KR'</initValue>
+      <name>expPlace</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'119 Nguyen Thi Thap'</initValue>
-      <name>address</name>
+      <initValue>'010769'</initValue>
+      <name>applicantTitle</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'HCM'</initValue>
-      <name>city</name>
+      <initValue>'013797'</initValue>
+      <name>benefTitle</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Vietnam'</initValue>
-      <name>country</name>
+      <initValue>'800854'</initValue>
+      <name>advisingBankTitle</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'70000'</initValue>
-      <name>postCode</name>
+      <initValue>'1000 USD'</initValue>
+      <name>amount</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0359912894'</initValue>
-      <name>Phone</name>
+      <initValue>'SEO'</initValue>
+      <name>inputBranch</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>60</initValue>
-      <name>uploadPlaceOrderTimeout</name>
+      <initValue>'YANG YANG SHIPPING (PTE) LTD\r\n802 Mangnidan-gil\r\nSEOUL 437002'</initValue>
+      <name>applicantDesc</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Product List'</initValue>
-      <name>dataFile</name>
+      <initValue>'PELAYARAN NASIONAL INDONESIA PT\r\n(PELNI-LINES)\r\n52 TELOK BLANGAH ROAD 02-03\r\nTELOK BLANGAH HOUSE S\'PORE 098829'</initValue>
+      <name>benefDesc</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'productName'</initValue>
-      <name>inputColumHeader</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'http://cms.demo.katalon.com/product'</initValue>
-      <name>urlProduct</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Flying Ninja'</initValue>
-      <name>productName</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'KBAW662S'</initValue>
-      <name>coupon</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'katalon'</initValue>
-      <name>firstName</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'customer'</initValue>
-      <name>lastName</name>
+      <initValue>'AUSTRALIA AND NEW ZEALAND BANKING\r\nGROUP LIMITED\r\nCOLLYER QUAY 17-02/05\r\nOCEAN BLDG., SINGAPORE 0104'</initValue>
+      <name>advisingBankDesc</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
