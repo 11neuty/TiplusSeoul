@@ -16,6 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.exception.StepFailedException
+
+// Cari elemen yang ingin diverifikasi
+TestObject myElement = findTestObject('Object Repository/verificationElemen/dashboard')
+
+try {
+	// Verifikasi bahwa elemen terlihat
+	WebUI.verifyElementVisible(myElement)
+	println "Elemen terlihat."
+} catch (StepFailedException e) {
+	println "Elemen tidak terlihat: " + e.getMessage()
+}
+
+
+
 //scroll down
 WebUI.scrollToPosition(0, 500)
 WebUI.click(findTestObject('Object Repository/Page4/createNewMaster'))

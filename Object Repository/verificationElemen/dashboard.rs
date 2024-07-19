@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>application</name>
+   <name>dashboard</name>
    <tag></tag>
-   <elementGuidId>1e0b6db6-72c0-4a8b-90c0-7f2da6730686</elementGuidId>
+   <elementGuidId>063cf25b-5d4e-4b69-923b-713361ca8f0c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td/button[text()='Start...']</value>
+         <value>//div/div/h4[text()='Dashboard']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
