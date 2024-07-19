@@ -16,9 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.exception.StepFailedException
+
+
 
 WebUI.click(findTestObject('Object Repository/Page6/ClickReleaseItems'))
 WebUI.click(findTestObject('Object Repository/Page6/ClickCharges'))
+TestObject myElement = findTestObject('Object Repository/verificationElemen/charge')
+
+try {
+	// Verifikasi bahwa elemen terlihat
+	WebUI.verifyElementVisible(myElement)
+	println "Elemen start terlihat."
+} catch (StepFailedException e) {
+	println "Elemen tidak terlihat: " + e.getMessage()
+}
 WebUI.scrollToPosition(0, 300)
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page6/clickAdd'), 10)
 WebUI.click(findTestObject('Object Repository/Page6/ClickAdd'))
