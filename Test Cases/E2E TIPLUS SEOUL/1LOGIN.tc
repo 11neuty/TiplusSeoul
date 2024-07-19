@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>as user i can login with valid credentials</description>
+   <name>1LOGIN</name>
+   <tag>tiplus</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bc4cd78d-955a-4ff9-ac7e-43b80b39139a</testCaseGuid>
+</TestCaseEntity>
