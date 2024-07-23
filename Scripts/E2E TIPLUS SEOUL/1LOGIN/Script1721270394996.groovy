@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.baseUrl)
 WebUI.waitForPageLoad(10)
+WebUI.maximizeWindow()
 WebUI.setText(findTestObject('Object Repository/Login/userName'), GlobalVariable.username)
 WebUI.setText(findTestObject('Object Repository/Login/password'),  GlobalVariable.password)
 WebUI.click(findTestObject('Object Repository/Login/buttonLogin'))
