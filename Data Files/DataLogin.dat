@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Product List</name>
+   <name>DataLogin</name>
    <tag></tag>
+   <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>4d936c34-493b-477c-a69d-1b74a55fae75</dataFileGUID>
-   <dataSourceUrl>Data Files/Constants.xlsx</dataSourceUrl>
+   <dataFileGUID>3f22de53-b218-49b4-92d1-5c976c2dfdb2</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>true</isInternalPath>
+   <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>listProduct</sheetName>
+   <sheetName></sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
